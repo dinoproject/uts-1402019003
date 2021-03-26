@@ -1,0 +1,164 @@
+nav {
+	height: : 10vh;
+	box-sizing: border-box;
+	background-color: #ffe6f7;
+}
+
+.navbar-brand{
+	padding-left: 20px;
+	font-size: 30px;
+}
+
+ul {
+	padding-right: 70px;
+}
+ul li {
+	margin-right: 40px;
+}
+.nav-item {
+	color:black;
+	font-weight: bold;
+}
+
+content {
+	height: 800px;
+	width: 100%;
+}
+
+.main {
+	background-color: #ffe6e6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.main-child {
+	width: 50%;
+}
+
+
+.main-child img {
+	height: 700px;
+	width: 100%;
+}
+
+.main-pre img {
+	height:300px;
+}
+
+
+.Silinder {
+	border: 2px solid #e6005c;
+	border-radius: 20px;
+	margin:20px 20px;
+	box-sizing: border-box;
+}
+
+.Silinder p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Silinder h1{
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 5px 0;
+	margin: 20px 0;
+}
+
+.Silinder h2{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.button {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.message {
+  padding: 10px 30px;
+  background-color: #ff3333;
+  cursor: pointer;
+  box-shadow: 0 7px #800000;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.form {
+	text-align: center;
+}
+
+form label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.header-3 {
+	width: 1100px;
+	height: 100%;
+	margin: 30px auto;
+	background-image: url(bg.png);
+	border: 2px solid green;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.header-3 h1 {
+	border-bottom: 5px solid #1a7940;
+	padding : 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.form {
+	padding:10px 20px;
+}
+
+.form label {
+	font-size: 20px;
+}
+.form input {
+	height: 25px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #bfbfbf;
+}
+.form textarea {
+	height: 100px;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #bfbfbf;
+}
+
+.submit{
+	text-align: center;
+}
+
+footer {
+	padding-top:10px;
+	color: white;
+	width: 100%;
+	height: 50px;
+	background-color: #ff4d4d;
+	height:10vh;
+}
+
+footer a{
+	color: white;
+	float:right;
+}
+footer .header-left {
+	float: left;
+	font-family: "Lucida Handwriting";
+}
